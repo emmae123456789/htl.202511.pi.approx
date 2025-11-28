@@ -17,7 +17,7 @@ int main() {
         double U = n * l;
 
         // Pi-Annäherung
-        pi = U / (2 * r);
+        pi = 2*U / (2 * r);
 
         printf("n=%d, l=%.10f, Pi approx=%.10f\n", n, l, pi);
 
